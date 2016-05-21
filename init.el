@@ -90,7 +90,12 @@
     ;;https://github.com/clojure-emacs/cider/blob/master/CHANGELOG.md
     ;; Problem is due to nrepl-send-string -> nrepl-request:eval
     ;; slamhound
+
+    ;;vim mode
+    evil
     ))
+
+(evil-mode 1)
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
