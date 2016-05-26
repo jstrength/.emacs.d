@@ -184,3 +184,10 @@
 ;; (setq grep-program "c:/cygwin/bin/grep.exe")
 
 ;;(setq grep-find-template " c:/cygwin/bin/find . <X> -type f <F> -exec /usr/bin/grep <C> --regexp=<R> --with-filename --line-number --color=always {} +")
+
+  (add-hook 'neotree-mode-hook
+            (lambda ()
+              (define-key evil-normal-state-local-map (kbd "TAB") 'neotree-enter)
+              (define-key evil-normal-state-local-map (kbd "SPC") 'neotree-enter)
+              (define-key evil-normal-state-local-map (kbd "q") 'neotree-hide)
+              (define-key evil-normal-state-local-map (kbd "RET") 'neotree-enter)))

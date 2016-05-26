@@ -31,5 +31,5 @@
   (tool-bar-mode -1))
 
 ;; Start in full screen. If you prefer maximized, comment fullscreen and uncomment maximized
-(toggle-frame-fullscreen)
+;; (toggle-frame-fullscreen)
 ;; (toggle-frame-maximized)
